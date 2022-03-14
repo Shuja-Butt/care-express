@@ -1,0 +1,19 @@
+{
+  "name": "rest_api_demo",
+  "version": "1.0.0",
+  "description": "simple rest server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L server.js"
+  },
+  "author": "invisibl",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  }
+}
